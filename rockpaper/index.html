@@ -25,36 +25,30 @@
       <div class="computerpart">
         <p>computer</p>
         <div class="partiejeucomp">
-          <p>computer score:3</p>
-          <div class="imgdivcomp">
-            <img src="./paper.svg" />
-          </div>
+          <p class="pcomputerscore"></p>
+          <div class="imgdivcomp"></div>
         </div>
       </div>
 
-      <div class="milieu">
-        <p>You won 🥳</p>
-      </div>
+      <div class="milieu"></div>
 
       <div class="userpart">
-        <p>User</p>
+        <p class="username"></p>
         <div class="partiejeuuser">
-          <div class="imgdivuser">
-            <img src="./paper.svg" />
-          </div>
-          <p>User score:3</p>
+          <div class="imgdivuser"></div>
+          <p class="puserscore"></p>
         </div>
       </div>
 
       <div class="imojispart">
         <p class="choose">Choose one:</p>
-        <div class="paperdiv">
+        <div onclick="choosen('paper')" class="paperdiv">
           <img src="./paper.svg" alt="paper img" />
         </div>
-        <div class="rockdiv">
+        <div onclick="choosen('Rock')" class="rockdiv">
           <img src="./Rock.svg" alt="rock img" />
         </div>
-        <div class="scissorsdiv">
+        <div onclick="choosen('scissors')" class="scissorsdiv">
           <img src="./scissors.svg" alt="scissors img" />
         </div>
       </div>
