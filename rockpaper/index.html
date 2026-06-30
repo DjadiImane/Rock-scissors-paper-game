@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="firstpagecontainer">
+      <h1>Rock Paper Scissors</h1>
+      <div class="inputdiv">
+        <label class="inputlab" for="fname">
+          <span class="welc">Welcome ! </span>please enter your name</label
+        >
+        <input class="input" type="text" name="fname" placeholder="Name" />
+      </div>
+
+      <button class="start" onclick="secendfent()">
+        Let's Start <img src="./Right.svg" alt="right" />
+      </button>
+    </div>
+
+    <div class="Secondpagecontainer">
+      <div class="computerpart">
+        <p>computer</p>
+        <div class="partiejeucomp">
+          <p>computer score:3</p>
+          <div class="imgdivcomp">
+            <img src="./paper.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="milieu">
+        <p>You won 🥳</p>
+      </div>
+
+      <div class="userpart">
+        <p>User</p>
+        <div class="partiejeuuser">
+          <div class="imgdivuser">
+            <img src="./paper.svg" />
+          </div>
+          <p>User score:3</p>
+        </div>
+      </div>
+
+      <div class="imojispart">
+        <p class="choose">Choose one:</p>
+        <div class="paperdiv">
+          <img src="./paper.svg" alt="paper img" />
+        </div>
+        <div class="rockdiv">
+          <img src="./Rock.svg" alt="rock img" />
+        </div>
+        <div class="scissorsdiv">
+          <img src="./scissors.svg" alt="scissors img" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

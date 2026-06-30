@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Idiqlat:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Idiqlat";
+}
+body {
+  background-color: #c5b1d4;
+}
+.firstpagecontainer {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 80px;
+}
+/* IMPORTAAANT AVEC JSSS */
+.firstpagecontainershow {
+  display: none;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #ac6ddf;
+  font-size: 90px;
+  margin-left: -120px;
+}
+.inputdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputdiv label {
+  color: #fff8f8;
+  font-size: 20px;
+}
+.inputdiv label span {
+  color: #ac6ddf;
+}
+.inputdiv input {
+  border: none;
+  border-radius: 50px;
+  background: #d9d9d9;
+  width: 650px;
+  height: 60px;
+  margin-top: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.start {
+  border-radius: 181px;
+  background: #ac6ddf;
+  width: 320px;
+  border: none;
+  height: 80px;
+  color: #fffefe;
+  display: flex;
+  gap: 40px;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: -70px;
+}
+.start img {
+  background: #ac6ddf;
+  margin-top: 3px;
+  height: 40px;
+  padding: 0%;
+  width: 90px;
+}
+.start:hover {
+  box-shadow: 0 0 10px 5px #ab6ddf;
+}
+
+/* 2part */
+.Secondpagecontainer {
+  display: none;
+}
+.Secondpagecontainershow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.computerpart {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.computerpart > p {
+  color: #7608d1;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.partiejeucomp {
+  color: #8b2441;
+  text-align: center;
+  font-size: 20px;
+}
+.imgdivcomp {
+  border-radius: 34px;
+  border: 3px dashed #7608d1;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgdivcomp img {
+  width: 100px;
+  height: 120px;
+}
+
+.milieu {
+  background-color: #ab6ddf;
+  width: 100vw;
+  height: 60px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.userpart {
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+}
+.userpart > p {
+  color: #7608d1;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.partiejeuuser {
+  color: #1e6f2a;
+  text-align: center;
+
+  font-size: 20px;
+}
+.imgdivuser {
+  border-radius: 34px;
+  border: 3px dashed #7608d1;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgdivuser img {
+  width: 100px;
+  height: 120px;
+}
+/* imoji part */
+.imojispart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.choose {
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: -20px;
+}
+.paperdiv {
+  border-radius: 34px;
+  border: 3px solid #7608d1;
+  background: rgba(254, 252, 255, 0.46);
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.paperdiv:hover {
+  box-shadow: 0 4px 20px 5px #ab6ddf;
+}
+.paperdiv img {
+  width: 120px;
+  height: 140px;
+  margin-left: 15px;
+}
+.rockdiv {
+  border-radius: 34px;
+  border: 3px solid #7608d1;
+  background: rgba(254, 252, 255, 0.46);
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.rockdiv:hover {
+  box-shadow: 0 4px 20px 5px #ab6ddf;
+}
+.rockdiv img {
+  width: 100px;
+  height: 120px;
+  margin-top: 10px;
+}
+.scissorsdiv {
+  border-radius: 34px;
+  border: 3px solid #7608d1;
+  background: rgba(254, 252, 255, 0.46);
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.scissorsdiv:hover {
+  box-shadow: 0 4px 20px 5px #ab6ddf;
+}
+
+.scissorsdiv img {
+  margin-top: 10px;
+  width: 100px;
+  height: 120px;
+}
